@@ -5,8 +5,8 @@
 #define MAX 300
 
 //direction vectors
-int dr[4] = {-1, 1, 0, 0};
-int dc[4] = {0, 0, -1, 1};
+int dr[4] = {-1, 1, 0, 0}; //delta row
+int dc[4] = {0, 0, -1, 1}; //delta column
 
 //stack structure for DFS
 typedef struct {
